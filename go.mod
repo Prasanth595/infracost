@@ -1,8 +1,6 @@
 module github.com/infracost/infracost
 
-go 1.21
-
-toolchain go1.21.3
+go 1.23
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -39,7 +37,7 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	github.com/tidwall/gjson v1.17.0
+	github.com/tidwall/gjson v1.20.0
 	github.com/zclconf/go-cty v1.14.0
 	golang.org/x/crypto v0.14.0
 	golang.org/x/mod v0.13.0
