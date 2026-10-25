@@ -1,8 +1,6 @@
 module github.com/infracost/infracost
 
-go 1.21
-
-toolchain go1.21.3
+go 1.26.0
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -21,7 +19,7 @@ require (
 	github.com/dave/dst v0.27.2
 	github.com/dustin/go-humanize v1.0.1
 	github.com/fatih/color v1.15.0
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.3.0
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/jedib0t/go-pretty/v6 v6.2.1
@@ -41,8 +39,8 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.17.0
 	github.com/zclconf/go-cty v1.14.0
-	golang.org/x/crypto v0.14.0
-	golang.org/x/mod v0.13.0
+	golang.org/x/crypto v0.57.0
+	golang.org/x/mod v0.41.0
 	gopkg.in/go-playground/assert.v1 v1.2.1
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -51,7 +49,7 @@ require (
 require (
 	github.com/aws/aws-sdk-go-v2/service/eks v1.27.0
 	github.com/hashicorp/terraform-config-inspect v0.0.0-20210625153042-09f34846faab
-	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
 )
 
 require (
@@ -84,8 +82,8 @@ require (
 	github.com/slack-go/slack v0.12.3
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
-	golang.org/x/text v0.13.0
-	golang.org/x/tools v0.14.0 // indirect
+	golang.org/x/text v0.43.0
+	golang.org/x/tools v0.51.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 )
 
@@ -93,7 +91,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.10 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.35 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
-	golang.org/x/sync v0.4.0
+	golang.org/x/sync v0.24.0
 )
 
 require (
@@ -218,7 +216,7 @@ require (
 	go.mozilla.org/sops/v3 v3.7.3 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/term v0.13.0 // indirect
+	golang.org/x/term v0.46.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
@@ -258,7 +256,7 @@ require (
 	github.com/yashtewari/glob-intersection v0.1.0 // indirect
 	github.com/zclconf/go-cty-yaml v1.0.3
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/net v0.59.0 // indirect
 	google.golang.org/api v0.114.0
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
