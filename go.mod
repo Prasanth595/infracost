@@ -244,7 +244,7 @@ require (
 	github.com/hashicorp/go-getter v1.7.3
 	github.com/hashicorp/go-safetemp v1.0.0
 	github.com/hashicorp/go-uuid v1.0.3
-	github.com/hashicorp/go-version v1.6.0
+	github.com/hashicorp/go-version v1.9.0
 	github.com/heimdalr/dag v1.3.1
 	github.com/iancoleman/orderedmap v0.2.0 // indirect
 	github.com/klauspost/compress v1.15.11 // indirect
